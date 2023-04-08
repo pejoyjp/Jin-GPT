@@ -1,5 +1,6 @@
 import './globals.css'
 
+
 export const metadata = {
   title: 'Jin GPT',
   description: 'next app',

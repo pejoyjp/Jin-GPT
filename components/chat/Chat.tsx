@@ -2,8 +2,10 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 import {FiSend} from 'react-icons/fi'
-type Props = {}
+import ReactLoading from "react-loading";
 import { usePathname } from 'next/navigation';
+
+type Props = {}
 
 const Chat = (props: Props) => {
   
@@ -37,9 +39,10 @@ const Chat = (props: Props) => {
         <div className='flex-1'> 
           <div className='text-xl font-semibold'>{showQuestion}</div>
             {
-              isLoading?<div className='text-3xl'>
-                GPT正在思考。。。
-              </div>:
+              isLoading?(<div className='text-3xl'>
+                <p>GPT正在思考。。。</p>
+                <ReactLoading type={'balls'} color="#000" />
+              </div>):
               <div>{answer}</div>
             }
           </div>
