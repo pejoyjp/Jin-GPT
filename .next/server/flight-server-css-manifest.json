@@ -1,0 +1,19 @@
+{
+  "cssImports": {
+    "/Users/jin/Desktop/sad/Jin-GPT/app/page.tsx": [
+      "/Users/jin/Desktop/sad/Jin-GPT/node_modules/.pnpm/next@13.3.0_react-dom@18.2.0_react@18.2.0/node_modules/next/font/google/target.css?{\"path\":\"app/page.tsx\",\"import\":\"Noto_Sans\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"300\",\"400\",\"500\",\"600\"]}],\"variableName\":\"font\"}"
+    ],
+    "/Users/jin/Desktop/sad/Jin-GPT/app/layout.tsx": [
+      "/Users/jin/Desktop/sad/Jin-GPT/app/globals.css"
+    ]
+  },
+  "cssModules": {
+    "/Users/jin/Desktop/sad/Jin-GPT/app/page": [
+      "/Users/jin/Desktop/sad/Jin-GPT/node_modules/.pnpm/next@13.3.0_react-dom@18.2.0_react@18.2.0/node_modules/next/font/google/target.css?{\"path\":\"app/page.tsx\",\"import\":\"Noto_Sans\",\"arguments\":[{\"subsets\":[\"latin\"],\"weight\":[\"300\",\"400\",\"500\",\"600\"]}],\"variableName\":\"font\"}",
+      "/Users/jin/Desktop/sad/Jin-GPT/app/globals.css"
+    ],
+    "/Users/jin/Desktop/sad/Jin-GPT/app/[chat]/page": [
+      "/Users/jin/Desktop/sad/Jin-GPT/app/globals.css"
+    ]
+  }
+}

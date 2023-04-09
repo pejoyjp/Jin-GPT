@@ -31,16 +31,14 @@ const Chat = (props: Props) => {
       }
   }
 
-
-
   return (
 
     <div className='flex flex-col h-screen p-2'>
         <div className='flex-1'> 
           <div className='text-xl font-semibold'>{showQuestion}</div>
             {
-              isLoading?(<div className='text-3xl'>
-                <p>GPT正在思考。。。</p>
+              isLoading?(<div className='text-3xl flex items-center'>
+                <p>GPT正在思考,请耐心等待</p>
                 <ReactLoading type={'balls'} color="#000" />
               </div>):
               <div>{answer}</div>
